@@ -8,5 +8,20 @@
     <artifactId>carmen</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    
+    <dependencies>
+        <dependency>
+            <groupId>com.twitter</groupId>
+            <artifactId>twitter-text</artifactId>
+            <version>1.12.1</version> <!-- or whatever the latest version is -->
+        </dependency>
+
+        /*scribe is not installed successfully! Figure it out latter*/
+        <dependency>
+            <groupId>com.github.scribejava</groupId>
+            <artifactId>scribejava-apis</artifactId>
+            <version>2.0</version>
+        </dependency>
+
+    </dependencies>
+
 </project>
